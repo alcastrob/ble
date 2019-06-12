@@ -8,5 +8,11 @@
 
 <ion-content>
   <ion-button (click)="scan()">Scan bluetooth</ion-button>
+  <ion-item>
+    <ion-label position="floating">Result</ion-label>
+    <ion-textarea [(ngModel)]="scanResult"></ion-textarea>
+  </ion-item>
   <hr>
+  <ion-button (click)="connect()">Connect</ion-button>
+  <ion-button (click)="disconnect()">Disconnect</ion-button>
 </ion-content>
