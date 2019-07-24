@@ -10,7 +10,8 @@ export class HomePage {
   public scanResult = '';
   // private mac = '79:60:08:43:0A:7A';
   // private mac = '51:6A:23:C4:3C:49';
-  private mac = '4F:9F:88:74:6B:DD';
+  // private mac = '4F:9F:88:74:6B:DD';
+  private mac = '39:8C:80:8E:A9:E1';
 
   constructor(private ble: BLE) {}
 
